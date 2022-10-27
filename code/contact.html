@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alfred Contactpage</title>
+  <link rel="stylesheet" href="contact.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+  integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="naver">
+    <a href="index.html" class="logo">logo</a>
+    <ul class="site-menu">
+      <li><a href="index.html">home</a></li>
+      <li><a href="proflie.html">profile</a></li>
+      <li><a href="photo.html">photo</a></li>
+      <li><a href="contact.html">contact</a></li>
+    </ul>
+  </div>
+
+  <div class="page-title">
+    <h1>contact</h1>
+    <p>お問い合わせ</p>
+  </div>
+
+  <div class="contact">
+    <h2>お問い合わせフォーム</h2>
+    <form action="#">
+      <dl class="form-area">
+        <dt><span class="required">お名前</span> </dt>
+        <dd><input type="text" class="input-text" name="name" required></dd>
+        <dt><span class="required">メールアドレス</span></dt>
+        <dd><input type="text" class="input-text" name="email" required></dd>
+        <dt><span class="required">電話番号</span></dt>
+        <dd><input type="text" class="input-text" name="tel" required></dd>
+        <dt><span class="required">お問い合わせ種別</span></dt>
+        <dd>
+          <select name="genre" class="select-box" id="">
+            <option value="ご予約について" selected>ご予約について</option>
+            <option value="メニューについて">メニューについて</option>
+            <option value="営業時間について">営業時間について</option>
+          </select>
+        </dd>
+        <dt>お客様について</dt>
+        <dd>
+          <label for="" class="radio-button"><input type="radio" name="user-type" value="一般のお客様" checked>一般のお客様</label>
+          <label for="" class="radio-button"><input type="radio" name="user-type" value="お取引先様">お取引先様</label>
+          <label for="" class="radio-button"><input type="radio" name="user-type" value="その他">その他</label>
+        </dd>
+        <dt><span class="required">お問い合わせ内容</span></dt>
+        <dd><textarea class="message" name="message" required></textarea></dd>
+      </dl>
+      <p class="confirm-text">
+        お入力内容をご確認の上、お間違いがなければ [Submit] ボタンを押してください。
+       </p>
+       <button class="submit-button" type="submit">Submit</button>
+    </form>
+  </div>
+
+  <footer>
+    <p>Alfred Kaito</p>
+    <p>alfredkaito23@gmail.com</p>
+    <div class="social">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+    <p class="end">CopyRight@AlfredKaito</p>
+  </footer>
+
+
+
+</body>
+
+</html>
